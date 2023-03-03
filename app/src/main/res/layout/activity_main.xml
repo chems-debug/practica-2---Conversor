@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="312dp"
+        android:layout_height="403dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_temperatura"
+                android:layout_width="0dp"
+                android:layout_height="64dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#03A9F4"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Temperatura"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/_46554"
+                app:iconGravity="textStart"
+                app:iconPadding="30dp"
+                app:iconSize="40dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/btn_peso"
+                android:layout_width="0dp"
+                android:layout_height="63dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#03A9F4"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Peso"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/escala_de_peso"
+                app:iconGravity="textStart"
+                app:iconPadding="30dp"
+                app:iconSize="45dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/btn_longitud"
+                android:layout_width="0dp"
+                android:layout_height="62dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#03A9F4"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Longitud"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/longitud"
+                app:iconGravity="textStart"
+                app:iconPadding="20dp"
+                app:iconSize="60dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="112dp">
+
+            <Button
+                android:id="@+id/btn_volumen"
+                android:layout_width="0dp"
+                android:layout_height="62dp"
+                android:layout_margin="15dp"
+                android:layout_weight="1"
+                android:backgroundTint="#03A9F4"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Volumen"
+                android:textStyle="bold"
+                app:cornerRadius="50dp"
+                app:icon="@drawable/volumen"
+                app:iconGravity="textStart"
+                app:iconPadding="30dp"
+                app:iconSize="40dp" />
+
+        </TableRow>
+
+    </TableLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
